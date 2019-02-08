@@ -21,4 +21,18 @@ doskey aa=git add -A $*
 doskey mg=git merge $*
 doskey tag=git tag -a $*
 doskey tagl=git tag -l $*
+doskey art:auth=art:cmd=php artisan make:auth $*
+doskey hart:cmd=php artisan make:command $*
+doskey art:controller=php artisan make:controller $*
+doskey art:event=php artisan make:event $*
+doskey art:job=php artisan make:job $*
+doskey art:listener=php artisan make:listener $*
+doskey art:mail=php artisan make:mail $*
+doskey art:middleware=php artisan make:middleware $*
+doskey art:migration=php artisan make:migration $*
+doskey art:notification=php artisan make:notification $*
+doskey art:policy=php artisan make:policy $*
+doskey art:provider=php artisan make:provider $*
+doskey art:request=php artisan make:request $*
+doskey art:tinker=php artisan tinker $*
 cls
