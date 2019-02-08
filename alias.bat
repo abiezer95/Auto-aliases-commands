@@ -22,7 +22,7 @@ doskey mg=git merge $*
 doskey tag=git tag -a $*
 doskey tagl=git tag -l $*
 doskey art:auth=art:cmd=php artisan make:auth $*
-doskey hart:cmd=php artisan make:command $*
+doskey art:cmd=php artisan make:command $*
 doskey art:controller=php artisan make:controller $*
 doskey art:event=php artisan make:event $*
 doskey art:job=php artisan make:job $*
